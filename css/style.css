@@ -262,6 +262,7 @@ body.ads {
     font-size: 64px !important;
     letter-spacing: 0.045em;
     margin-bottom: 20px;
+    word-break: break-word;
 }
 
 .ad__content p {
@@ -352,6 +353,62 @@ body.roadmap-b {
 }
 
 .roadmap .container {margin-right: 30px;max-width: 1330px !important;}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    header {
+        padding: 20px;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .company__images {
+        margin: 0 -100vw;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .company__images {
+        margin: 0 -100vw;
+    }
+
+    .roadmap__inner {
+        flex-direction: column;
+    }
+
+    .roadmap__left {
+        width: 100%;
+    }
+
+    .roadmap__right {
+        width: 100%;
+    }
+
+    .ad {
+        padding: 20px;
+    }
+
+    .features__scroll--images {
+        display: none;
+    }
+}
 
 /* keyframes */
 
